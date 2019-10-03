@@ -54,6 +54,7 @@ function Topics({ match }) {
 
 function Header() {
   return (
+    <div>
     <ul>
       <li>
         <Link to="/">Home</Link>
@@ -65,6 +66,7 @@ function Header() {
         <Link to="/topics">Topics</Link>
       </li>
     </ul>
+    </div>
   );
 }
 
